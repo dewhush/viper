@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.env.*
+!.env.example
+config.json
+!config/config.json.example
+
+# Database & state
+*.db
+*.sqlite
+*_state.json
+viper.db
+
+# Logs
+*.log
+trader.log
+viper-daemon.log
+viper-ws.log
+watchdog*.log
+
+# Runtime
+*.pid
+*.lock
+*.sock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test / temp
+test_*.py
+!tests/test_*.py
+__pycache__/
+*.egg-info/
+dist/
+build/
+
+# OS
+Thumbs.db
+.DS_Store

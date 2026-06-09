@@ -1,0 +1,33 @@
+{
+  "symbols": [
+    "BTC/USDT:USDT",
+    "ETH/USDT:USDT",
+    "SOL/USDT:USDT",
+    "DOGE/USDT:USDT"
+  ],
+  "timeframe": "5m",
+  "backtest_timeframe": "15m",
+  "backtest_limit": 500,
+  "leverage": 50,
+  "testnet": false,
+  "risk_per_trade_pct": 50,
+  "max_positions": 2,
+  "max_trades_per_cycle": 3,
+  "confidence_threshold": 0.15,
+  "stop_loss_pct": 4,
+  "take_profit_pct": 5,
+  "tp1_pct": 5,
+  "tp2_pct": 10,
+  "tp1_close_pct": 50,
+  "trailing_stop": true,
+  "trailing_activation_pct": 8,
+  "trailing_distance_pct": 3,
+  "ws_fast_move_threshold": 2.0,
+  "ws_imbalance_threshold": 0.65,
+  "ws_promote_min_confidence": 0.6,
+  "cycle_interval_minutes": 15,
+  "backtest_every_n_cycles": 4,
+  "regime": "semi_aggressive",
+  "llm_validation": true,
+  "llm_market_analysis": true
+}
